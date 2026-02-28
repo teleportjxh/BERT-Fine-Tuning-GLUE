@@ -189,10 +189,10 @@ python main.py --mode predict --task sst2
 
 ---
 
-## 技术亮点 / Technical Highlights
+## 功能特性 / Features
 
-1. **模块化设计**：训练器（`BertTrainer`）和预测器（`BertPredictor`）解耦，支持独立使用
-2. **实验管理**：每次实验自动生成唯一 ID，所有产物（模型、日志、图表、结果）统一保存
-3. **训练监控**：自定义 `TrainerCallback` 记录每步 loss、学习率、评估指标和耗时
-4. **可视化**：自动生成 4 子图训练曲线（Loss / LR / Metrics / Time）
-5. **推理支持**：交互式预测 + 批量预测 + 随机样本预测展示
+- 模块化设计：训练器（`BertTrainer`）和预测器（`BertPredictor`）解耦，支持独立使用
+- 实验管理：每次实验自动生成唯一 ID，所有产物（模型、日志、图表、结果）统一保存
+- 训练监控：自定义 `TrainerCallback` 记录每步 loss、学习率、评估指标和耗时
+- 可视化：自动生成 4 子图训练曲线（Loss / LR / Metrics / Time）
+- 推理支持：交互式预测 + 批量预测 + 随机样本预测展示
